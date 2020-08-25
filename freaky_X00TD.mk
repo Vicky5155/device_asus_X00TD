@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit some common Havoc stuff
-$(call inherit-product, vendor/du/config/common_full_phone.mk)
+$(call inherit-product, vendor/freaky/config/common_full_phone.mk)
 
 # Poduct spec
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -30,10 +30,13 @@ scr_resolution := 1080
 # Inherit from X00TD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Build Type
+CUSTOM_BUILD_TYPE := OFFICIAL
+
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := X00TD
 PRODUCT_MANUFACTURER := asus
-PRODUCT_NAME := du_X00TD
+PRODUCT_NAME := freaky_X00TD
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
