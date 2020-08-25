@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/du_X00TD.mk
+    $(LOCAL_DIR)/freaky_X00TD.mk
 
 COMMON_LUNCH_CHOICES := \
-    du_X00TD-user \
-    du_X00TD-userdebug \
-    du_X00TD-eng
+    freaky_X00TD-user \
+    freaky_X00TD-userdebug \
+    freaky_X00TD-eng
